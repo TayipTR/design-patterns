@@ -19,8 +19,8 @@ func main() {
 }
 
 func printHeroDetails(hero iHero) {
-	fmt.Println("Hero, ", hero.getName())
-	fmt.Println("agility,  ", hero.getAgility())
-	fmt.Println("strength,  ", hero.getStrength())
-	fmt.Println("intelligence,  ", hero.getIntelligence())
+	fmt.Println(hero.getName())
+	fmt.Println("agi : ", hero.getAgility())
+	fmt.Println("str : ", hero.getStrength())
+	fmt.Println("int : ", hero.getIntelligence())
 }
